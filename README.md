@@ -81,23 +81,28 @@ To run this notebook locally:
 
 ### Linear Regression
 
-- **R² Score**: 0.317
-- **MSE**: 0.337
-- Top Features:
-  - `Life Satisfaction`, 
+- **R² Score**: 0.286
+- **MSE**: 0.352
+- Top Features: 
   - `Self-Reported Health`, 
-  - `Freedom of Choice`, 
-  - `National Pride`
+  - `Financial Satisfaction`, 
+  - `Freedom of Choice`
+  - `Feeling of Security`
 
 ### Decision Tree Classifier
 
-- **Accuracy**: 63.6%
-- Performance varied across happiness levels with good recall for moderately happy class.
+- **Accuracy**: 0.86
+- Good precision and recall for Happy class, but moderate precision and very low recall for unhappy class.
+- Top Features:
+  - `Financial Satisfaction`,
+  - `Self-Reported Health`
+  - `Freedom of Choice`
+  - `Trust in Family`
 
 ### Logistic Regression
 
-- **Accuracy**: 76.4%
-- Excellent precision for “Happy” class, but recall was lower for “Unhappy.”
+- **Accuracy**: 76.3%
+- Excellent precision for “Happy” class, but precision was lower for “Unhappy.”
 - Influential features:
   - `Self-Reported Health`, 
   - `Financial Satisfaction`, 
