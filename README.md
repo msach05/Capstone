@@ -136,10 +136,10 @@ None of these variables emerged as top predictors of happiness in the current co
 - **Within each cluster**, we ran separate linear regressions using religious or spiritual features to predict happiness.
 ---
 
-### Result:
+### Result when looking at stabilizing for Health, Finance and common factors
 - The **religion coefficients remained small (0.05 to 0.08)** across all clusters.
 - The **R² values were near zero (0.00–0.01)**, indicating that **religion and spirituality still explained virtually none of the variation in happiness**, even among demographically similar groups.
-- The only minor difference we could see was that
+- We further explored religious and spiritual differences across the happy and unhappy groups through visual analysis, but observed minimal variation between them.
 
 ### Conclusion:
 Despite extensive modeling and controlling for life circumstance variables, this project finds **no strong evidence that religious practices or spirituality is a significant predictor of happiness** in the World Values Survey dataset.
